@@ -1,0 +1,105 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+body{
+    /*background: #f8f8f8;*/
+    background: url("../img/1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*opacity: 0.5;*/
+}
+form{
+    width: 600px;
+    height:400px;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    box-shadow: 0 0 8px #B88A8D;
+    padding-top:100px ;
+    box-sizing: border-box;
+    background: rgba(121,173,210,0.6);
+    border-radius: 10px;
+}
+button{
+    margin-left: 10px;
+
+}
+div{
+    height: 40px;
+    margin: 10px 0;
+    text-align: center;
+    line-height:30px;
+}
+div input{
+    height: 100%;
+    border: none;
+    background: #fff;
+    border:none;
+    outline: none;
+    background: none;
+    border-radius: 8px;
+
+}
+.use input,.pass input{
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 250px;
+}
+.zhuce{
+    margin-top: 50px;
+    height: 32px;
+    padding: 0 25%;
+    box-sizing: border-box;
+}
+.zhuce input{
+    line-height: 36px;
+    text-align: center;
+    float: left;
+    background: coral;
+    border-radius: 10px;
+    padding: 0 20px;
+    color: #fff;
+    border:none;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.zhuce input{
+    cursor: pointer;
+}
+div h4{
+    letter-spacing: 2px;
+    float: right;
+    display: inline-block;
+    height: 100%;
+    line-height: 32px;
+    background: coral;
+    border-radius: 10px;
+    padding: 0 10px;
+    color: #fff;
+    font-weight: normal;
+    margin-left: 10px;
+}
+div h4:hover{
+    cursor: pointer;
+}
+.yzm input{
+    width: 150px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.yzm img{
+    height: 100%;
+    vertical-align:bottom;
+    margin-left: 10px;
+}

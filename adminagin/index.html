@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="css/login.css">
+<body>
+    <form action="index.php" method="post">
+        <div class="use">账号：<input type="text" name="user" required autocomplete="off"></div>
+        <div class="pass">密码：<input type="password" name="pass" required autocomplete="off"></div>
+        <div class="yzm">验证码：<input type="text" name="check"><img src="images.php" onclick="this.src='images.php?abx='+Math.random();"></div>
+        <div class="zhuce"><input type="submit" name="sub" value="登录">
+        <h4 onclick="location.href='zhuce.html'">去注册</h4>
+        </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,430 @@
+a:hover{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height: 50px;
+	background:#00436E;
+}
+.hea{
+	height: 50px;
+	background: #00436E;
+}
+.hea div{
+	float: left;
+	width: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.hea div:last-child{
+	float: right;
+	color: white;
+}
+.hea img{
+	display: block;
+	height: 100%;
+}
+.hea a{
+	display:block;
+	width: auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 30px;
+	height:30px;
+	color: white;
+	background:#5AA5D8;
+	border-radius: 2px;
+}
+
+.hea form{
+	width: 300px;
+	height: 100%;
+}
+.hea form input{
+	height: 100%;
+	width: 200px;
+	border: none;
+	outline: none;
+	border:1px solid #ccc;
+	border-right: none;
+	padding-left: 20px;
+	box-sizing: border-box;
+	margin: 0;
+}
+.hea form button{
+	height: 100%;
+	width: 60px;
+	border: none;
+	background: #5AA5D8;
+	color: white;
+	letter-spacing: 2px;
+	margin: 0;
+}
+
+
+
+/*-------------*/
+
+/*.section{
+	height: 44px;
+	background: #f8f8f8;
+	line-height: 44px;
+}
+.section a{
+	font-size: 14px;
+	color: #0070C9;
+}
+.section a:first-child{
+	float: left;
+}
+.section a:last-child{
+	float: right;
+}
+header{
+	height: 100px;
+}
+header div{
+	float: left;
+	width: auto;
+	height: 100px;
+}
+header div img{
+	height: 100%;
+}
+
+header form{
+	float: right;
+	width: 400px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+}
+header form input{
+	height: 35px;
+	width: 300px;
+	border: none;
+	outline: none;
+	border:1px solid #ccc;
+	border-right: none;
+	padding-left: 20px;
+	box-sizing: border-box;
+}
+header form button{
+	height: 35px;
+	width: 60px;
+	border: none;
+	background: #5AA5D8;
+	color: white;
+	letter-spacing: 2px;
+}*/
+/*导航*/
+nav{
+	height: 50px;
+	width: 100%;
+	background: #5AA5D8;
+}
+nav .bignav .bigli > a{
+	display: block;
+	padding: 0 20px;
+	font-size: 14px;
+	color: white;
+}
+nav a:hover{
+	color: white;
+	text-decoration: none;
+}
+nav .bignav{
+	height: 100%;
+}
+nav .bignav .bigli{
+	float: left;
+	height: 100%;
+	line-height: 50px;
+	position: relative;
+	transition: background 0.3s;
+}
+nav .bignav li.active > a{
+	background: #317CAF;
+	font-size: 18px;
+	box-sizing: border-box;
+}
+
+nav .bignav .minnav{
+	height: auto;
+	width: 100%;
+	overflow: hidden;
+	background: #317CAF;
+	display: none;
+	position: absolute;
+	top:50px;
+	left: 0;
+	z-index: 1000;
+}
+nav .bignav .minnav .minli{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #ccc;
+	transition: background 0.3s;
+}
+nav .bignav .minnav .minli a{
+	color: white;
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 40px;
+	text-align: center;
+}
+nav .bignav .minnav .minli:hover{
+	background:#5AA5D8;
+}
+
+/*内容*/
+.floor1{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.floor1 .floor1-left div{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+}
+.floor1 .floor1-left div b{
+	color: #0070C9;
+	font-weight: bold;
+	font-size: 14px;
+}
+.floor1 .floor1-left div span{
+	float: right;
+	color: #333333;
+}
+.floor1 .floor1-left ul{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+}
+.floor1 .floor1-left ul li{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	list-style:circle;
+	color: #222;
+	overflow: hidden;
+}
+.floor1 .floor1-left ul li a{
+	font-size: 16px;
+	color: #222;
+}
+.floor1 .floor1-left ul li:hover a{
+	color: red;
+}
+
+.floor1 .floor1-right{
+	height: 450px;
+	padding-top: 50px;
+	box-sizing: border-box;
+}
+
+/*二楼*/
+.floor2{
+	width: 100%;
+	height: 730px;
+	overflow: hidden;
+}
+.floor2-top{
+	height: 60px;
+	background: #F8F8F8;
+	overflow: hidden;
+}
+.floor2-top li{
+	height: 100%;
+	width: auto;
+	padding: 0 20px;
+	box-sizing: border-box;
+	float: left;
+	line-height: 60px;
+	cursor: pointer;
+}
+.floor2-top li.active{
+	box-sizing: border-box;
+	border-bottom: 4px solid #0070C9;
+}
+.floor-bottom{
+	width:100%;
+	height: 670px;
+	position: relative;
+	overflow: hidden;
+}
+.floor2-bottom{
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height: 670px;
+
+	position: absolute;
+	left: 0;
+	top:0;
+	overflow: hidden;
+}
+.floor2-bottom li{
+	height: 150px;
+	width: 100%;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #e0e0e0;
+	border-top: 1px solid #e0e0e0;
+	padding: 15px 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.floor2-bottom li div{
+	height: 100%;
+}
+.floor2-bottom li div:first-child{
+	width:147px;
+	overflow: hidden;
+}
+.floor2-bottom li div:first-child a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	line-height: 118px;
+}
+.floor2-bottom li div:first-child img{
+	transition: transform .3s;
+	width: 100%;
+}
+.floor2-bottom li div:first-child img:hover{
+	transform: scale(1.2);
+}
+.floor2-bottom li div:last-child{
+	width:80%;
+	padding-left: 15px;
+	box-sizing: border-box;
+}
+.floor2-bottom li div:last-child a{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 40px;
+	font-size: 16px;
+	color: #222;
+	overflow: hidden;
+}
+.floor2-bottom li div:last-child p{
+	width: 100%;
+	height: 80px;
+	font-size: 14px;
+	color: #222;
+	line-height: 26px;
+	overflow:hidden;
+	text-indent:2em;
+}
+.floor2-bottom li div:last-child a:hover{
+	color: red;
+}
+/*三楼*/
+.floor3{
+	height: 1000px;
+}
+.floor3 section{
+	height: 100%;
+}
+.floor3 section h4{
+	height: 40px;
+	line-height: 40px;
+	width: 100%;
+	border-bottom: 1px solid #0070C9;
+}
+.floor3 section ul{
+	width: 100%;
+	height: auto;
+}
+.floor3 section ul li{
+	width: 100%;
+	height: 220px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.floor3 section ul li:hover{
+	background: #f8f8f8;
+}
+.floor3 section ul li h5{
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	
+}
+.floor3 section ul li h5 a{
+	color: #222;
+	font-size: 20px;
+}
+.floor3 section ul li h5 a:hover{
+	color: red;
+}
+.floor3 section ul li div{
+	width: 100%;
+	height: 140px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.floor3 section ul li div a{
+	display: block;
+	width: 170px;
+	height: 140px;
+	overflow: hidden;
+}
+.floor3 section ul li div a img{
+	width: 100%;
+	height: 100%;
+	transition: transform .3s;
+}
+.floor3 section ul li div a img:hover{
+	transform: scale(1.2);
+}
+/*底部*/
+footer{
+	height: 200px;
+	border-top: 1px dashed #e0e0e0;
+	padding: 20px 0 50px 0;
+}
+footer div{
+	width: auto;
+	height: auto;
+	padding: 10px 0;
+	text-align: center;
+	box-sizing: border-box;
+}
+footer div span{
+	color: #e0e0e0;
+	margin: 0 10px;
+}
+footer a{
+	color: #666;
+}
+footer a:hover{
+	color: red;
+	text-decoration: underline;
+}
+footer p{
+	text-align: center;
+	color: #666;
+}
+footer>span{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+footer>span a{
+	color: #666;
+}
+footer>span a:hover{
+	color: red;
+	text-decoration: underline;
+}

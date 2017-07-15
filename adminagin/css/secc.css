@@ -1,0 +1,93 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+a{
+    color: #666;
+}
+.top{
+    width: 100%;
+    height: 15%;
+    /*background: #5AA5D8;*/
+    background: url("../img/timg.jpg");
+    background-size: cover;
+    background-position: 100% 71%;
+    padding: 0 2%;
+    box-sizing: border-box;
+}
+.top h1{
+    font-weight: 200;
+    color: white;
+    height: 50%;
+    line-height: 65px;
+    text-align: center;
+}
+.top h2{
+    font-weight: normal;
+}
+.top h2 i{
+    color: #dddddd;
+    font-style: normal;
+}
+.top h2 span,.top h2 a{
+    float: right;
+    color: #dddddd;
+    font-size: 18px;
+}
+.top h2 a{
+    margin-left: 20px;
+}
+
+
+.bottom{
+    width: 100%;
+    height: 85%;
+}
+.bottom .left{
+    float: left;
+    width: 20%;
+    height: 100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+    /*background: #A5CEE4;*/
+    background: #f3f3f3;
+    /*background: url("../img/timg(3)_s.jpg");*/
+    /*background-size:cover;*/
+}
+.bottom .right{
+    float: left;
+    width: 80%;
+    height: 100%;
+
+}
+.bottom .right iframe{
+    width: 100%;
+    height: 100%;
+}
+
+
+.biaoti{
+    padding: 5px 20px;
+    box-sizing: border-box;
+}
+.biaoti span{
+    display: inline-block;
+    width: 100%;
+    font-size: 18px;
+}
+.biaoti span:hover{
+    cursor: pointer;
+}
+.biaoti span.active{
+    background: red;
+}
+.biaoti ul{
+    padding-left: 20px;
+    box-sizing: border-box;
+    height: auto;
+    display: none;
+}
+.biaoti ul li a{
+    color: #222;
+}

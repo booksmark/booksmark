@@ -1,0 +1,222 @@
+a:hover{
+	text-decoration: none;
+}
+.section{
+	height: 44px;
+	background: #f8f8f8;
+	line-height: 44px;
+}
+.section a{
+	font-size: 14px;
+	color: #0070C9;
+}
+.section a:first-child{
+	float: left;
+}
+.section a:last-child{
+	float: right;
+}
+header{
+	width: 100%;
+	height: 50px;
+	background:#00436E;
+}
+.hea{
+	height: 50px;
+	background: #00436E;
+}
+.hea div{
+	float: left;
+	width: auto;
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+.hea div:last-child{
+	float: right;
+	color: white;
+}
+.hea img{
+	display: block;
+	height: 100%;
+}
+.hea a{
+	display:block;
+	width: auto;
+	padding: 0 10px;
+	box-sizing: border-box;
+	text-align: center;
+	line-height: 30px;
+	height:30px;
+	color: white;
+	background:#5AA5D8;
+	border-radius: 2px;
+}
+
+.hea form{
+	width: 300px;
+	height: 100%;
+}
+.hea form input{
+	height: 100%;
+	width: 200px;
+	border: none;
+	outline: none;
+	border:1px solid #ccc;
+	border-right: none;
+	padding-left: 20px;
+	box-sizing: border-box;
+	margin: 0;
+}
+.hea form button{
+	height: 100%;
+	width: 60px;
+	border: none;
+	background: #5AA5D8;
+	color: white;
+	letter-spacing: 2px;
+	margin: 0;
+}
+/*导航*/
+.navs{
+	height: 50px;
+	width: 100%;
+	background: #5AA5D8;
+}
+.navs a{
+	display: block;
+	padding: 0 20px;
+	font-size: 14px;
+	color: white;
+}
+.navs a:hover{
+	color: antiquewhite;
+	text-decoration: none;
+}
+.navs ul{
+	height: 100%;
+}
+.navs ul li{
+	float: left;
+	height: 100%;
+	line-height: 50px;
+}
+/*内容*/
+main h1{
+	border-left: 4px solid #0070C9;
+	padding-left: 30px;
+	box-sizing: border-box;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	font-size: 24px;
+}
+main .list{
+	height: auto;
+}
+main .list li{
+	height: 150px;
+	width: 100%;
+	padding: 15px 0;
+	display: flex;
+	justify-content: space-between;
+}
+main .list li div{
+	height: 100%;
+}
+main .list li div:first-child{
+	overflow: hidden;
+	width: 150px;
+}
+main .list li div:first-child img{
+	width: 100%;
+	transition: transform .3s;
+}
+main .list li div:first-child img:hover{
+	transform: scale(1.1);
+}
+
+
+main .list li div:last-child{
+	width: 80%;
+	padding-left: 12px;
+	box-sizing: border-box;
+}
+main .list li div:last-child>a{
+	color: #222;
+	font-size: 20px;
+}
+main .list li div:last-child a:hover{
+	color: red;
+}
+main .list li div:last-child p{
+	width: 100%;
+	height: 60px;
+	margin: 0;
+	line-height: 30px;
+	overflow: hidden;
+}
+main .list li div:last-child div{
+	height: 30px;
+	width: 100%;
+	text-align: right;
+	line-height: 30px;
+}
+main .list li div:last-child div a{
+	color: #666666;
+	font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+.fenye{
+	display: flex;
+	justify-content: center;
+}
+/*底部*/
+footer{
+	height: 200px;
+	border-top: 1px dashed #e0e0e0;
+	padding: 20px 0 50px 0;
+}
+footer div{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+footer div span{
+	color: #e0e0e0;
+	margin: 0 10px;
+}
+footer a{
+	color: #666;
+}
+footer a:hover{
+	color: red;
+	text-decoration: underline;
+}
+footer p{
+	text-align: center;
+	color: #666;
+}
+footer>span{
+	display: block;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+footer>span a{
+	color: #666;
+}
+footer>span a:hover{
+	color: red;
+	text-decoration: underline;
+}

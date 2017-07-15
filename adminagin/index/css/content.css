@@ -1,0 +1,212 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+.section{
+	height: 44px;
+	background: #f8f8f8;
+	line-height: 44px;
+}
+.section a{
+	font-size: 14px;
+	color: #0070C9;
+}
+.section a:first-child{
+	float: left;
+}
+.section a:last-child{
+	float: right;
+}
+header{
+	height: 50px;
+}
+/*导航*/
+nav{
+	height: 50px;
+	width: 100%;
+	background: #5AA5D8;
+}
+nav a{
+	display: block;
+	padding: 0 20px;
+	font-size: 14px;
+	color: white;
+}
+nav a:hover{
+	color: antiquewhite;
+	text-decoration: none;
+}
+nav ul{
+	height: 100%;
+}
+nav ul li{
+	float: left;
+	height: 100%;
+	line-height: 50px;
+}
+
+main p{
+	font-size: 16px;
+	line-height: 30px;
+	letter-spacing: 1px;
+}
+main div{
+	width: 100%;
+	height: auto;
+	padding: 0 20%;
+	box-sizing: border-box;
+}
+main div img{
+	width: 100%;
+}
+main h5{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 10px 0;
+}
+.form{
+	margin-top:30px;
+	position: relative;
+}
+.form div:nth-of-type(1){
+	height: 50px;
+	line-height: 50px;
+	padding: 0;
+}
+.form div:nth-of-type(1) span{
+	font-size: 20px;
+	color: #0070C9;
+}
+.form div i{
+	font-style: normal;
+	color: #999;
+}
+.form textarea{
+	width: 100%;
+	height: 200px;
+	resize: none;
+}
+.form section{
+	height: 50px;
+	width: 100%;
+	text-align: center;
+}
+.form section input{
+	width: 100px;
+	height: 100%;
+	border: none;
+	background: #0070C9;
+	color: white;
+	outline: none;
+}
+.form section .inputpl{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	border-radius: 5px;
+	background: #0070C9;
+	color: white;
+}
+
+h3{
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	color: #0070C9;
+}
+
+.pinlun{
+	height: auto;
+}
+.pinlun li{
+	height: 220px;
+	border:1px dashed #c1e2b3;
+	padding-top: 30px;
+
+}
+.pinlun li h4{
+	color: red;
+	height: 20px;
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+.pinlun li h4 em{
+	font-style: normal;
+	color: gray;
+	font-size: 12px;
+}
+.pinlun li p{
+	padding-top: 20px;
+	height: 130px;
+	box-sizing: border-box;
+}
+
+
+ .form .son{
+	display: none;
+	width: 200px;
+	height: 100px;
+	border-radius: 10px;
+	background: rgba(121,173,210,0.8);
+	line-height: 100px;
+	color: white;
+	position: absolute;
+	top:0;
+	left:0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	text-align: center;
+}
+ .son a{
+	font-size: 16px;
+	color:#222;
+}
+
+/*底部*/
+/*footer{*/
+	/*height: 200px;*/
+	/*border-top: 1px dashed #e0e0e0;*/
+	/*padding: 20px 0 50px 0;*/
+	/*margin-top: 20px;*/
+/*}*/
+/*footer div{*/
+	/*width: 100%;*/
+	/*height: 50px;*/
+	/*line-height: 50px;*/
+	/*text-align: center;*/
+/*}*/
+/*footer div span{*/
+	/*color: #e0e0e0;*/
+	/*margin: 0 10px;*/
+/*}*/
+/*footer a{*/
+	/*color: #666;*/
+/*}*/
+/*footer a:hover{*/
+	/*color: red;*/
+	/*text-decoration: underline;*/
+/*}*/
+/*footer p{*/
+	/*text-align: center;*/
+	/*color: #666;*/
+/*}*/
+/*footer>span{*/
+	/*display: block;*/
+	/*width: 100%;*/
+	/*height: 50px;*/
+	/*line-height: 50px;*/
+	/*text-align: center;*/
+/*}*/
+/*footer>span a{*/
+	/*color: #666;*/
+/*}*/
+/*footer>span a:hover{*/
+	/*color: red;*/
+	/*text-decoration: underline;*/
+/*}*/

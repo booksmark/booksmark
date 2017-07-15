@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/mess.css">
+<style>
+    h1{
+        text-align: center;
+        font-weight: 100;
+    }
+    h1 span{
+        color: coral;
+    }
+    a{
+        text-decoration: none;
+        color: coral;
+    }
+    div{
+        text-align: center;
+        color: #f8f8f8;
+    }
+</style>
+<body>
+<div>
+    <h1><?php echo $mess?></h1>
+    可以选择<span>3</span>秒后自动跳转或，
+    <a href="<?php echo $src;?>">立即跳转</a>
+</div>
+</body>
+</html>
+<script>
+    let span=document.querySelector('span');
+    let a=document.querySelector('a');
+    let url=a.href;
+    a.onclick=function (e) {
+        e.preventDefault();
+        if(url=="http://localhost/adminagin/index.html"){
+            top.location.href=url;
+        }else {
+            location.href=url;
+        }
+    }
+
+    let i=3;
+    let t=setInterval(function () {
+        i--;
+        span.innerHTML=i;
+        if(i===0){
+            if(url=="http://localhost/PHP/SQL/mycms/admin/index.html"){
+                top.location.href=url;
+            }else {
+                location.href=url;
+            }
+        }
+    },1000)
+</script>

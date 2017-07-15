@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+}
+html,body{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+}
+body{
+    background: url("../img/backs.jpg");
+    background-position: center center;
+    background-size: cover;
+}
+form{
+    width: 600px;
+    height:400px;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+    margin: auto;
+    box-shadow: 0 0 8px #B88A8D;
+    padding-top:30px ;
+    box-sizing: border-box;
+    background: rgba(121,173,210,0.6);
+    border-radius: 10px;
+}
+button{
+    margin-left: 10px;
+
+}
+div{
+    height: 30px;
+    margin: 30px 0;
+    text-align: center;
+    line-height:30px;
+    position: relative;
+}
+div input{
+    height: 100%;
+    width: 250px;
+    border: none;
+    background: #fff;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.zhuce{
+    margin-top: 50px;
+    height: 32px;
+    padding: 0 25%;
+    box-sizing: border-box;
+}
+.zhuce input{
+    width:80px ;
+    float: left;
+    letter-spacing: 2px;
+    background: coral;
+    border-radius: 10px;
+    padding: 0 10px;
+    color: #fff;
+}
+.zhuce input:hover{
+    cursor: pointer;
+}
+div button{
+    float: right;
+    letter-spacing: 2px;
+    height: 100%;
+    background: coral;
+    border-radius: 10px;
+    padding: 0 10px;
+    color: #fff;
+    margin-left: 10px;
+    border:none;
+}
+div button:hover{
+    cursor: pointer;
+}
+.yzm input{
+    width: 100px;
+}
+.yzm img{
+    height: 100%;
+    vertical-align:bottom;
+    margin-left: 10px;
+}
+.zhc{
+    text-align: center;
+    box-sizing: border-box;
+}
+h5{
+    text-align: center;
+    color: coral;
+    font-size: 20px;
+    height: 100px;
+    line-height: 100px;
+}
+.notice{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+}
