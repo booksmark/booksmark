@@ -1,0 +1,154 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    background: #f8f8f8;
+}
+header.title{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.28rem;
+    background: #00a0e9;
+    z-index: 99;
+}
+header.title span{
+    display: block;
+    height: 100%;
+    width: 0.88rem;
+    line-height: 0.88rem;
+    text-align: left;
+    font-family: "宋体";
+    font-weight: bold;
+    color: white;
+}
+header.title div{
+    height: 100%;
+    width: auto;
+    line-height: 0.88rem;
+    overflow: hidden;
+    color: #fff;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    padding: 0.24rem;
+    box-sizing: border-box;
+}
+main .box{
+    width: 100%;
+    height: auto;
+    background: white;
+}
+main .box .headimg{
+    width: 100%;
+    height: 4.6rem;
+}
+
+main .box .headimg aside{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+main .box .headimg aside input{
+    outline: none;
+}
+main .box .headimg aside div:nth-of-type(1){
+    font-size: 0.28rem;
+}
+main .box .headimg aside div:nth-of-type(3){
+    font-size: 0.28rem;
+    line-height: 0.8rem;
+}
+
+main .box .headimg .fileword{
+    width: 100%;
+    height: 0.8rem;
+    color: #333;
+    line-height: 0.8rem;
+    text-align: center;
+    position: relative;
+}
+main .box .headimg .fileword input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    opacity: 0;
+}
+main .box .headimg .imgbox{
+    width: 100%;
+    height: 2.2rem;
+    position: relative;
+}
+main .box .headimg .imgbox .img{
+    width: 2rem;
+    height: 2rem;
+    background: rgba(0,0,0,0.1);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+/*修改昵称啥的*/
+main .box .wordbox{
+    width: 100%;
+    height: auto;
+    padding: 0.6rem 0.24rem 0 0.24rem;
+    box-sizing: border-box;
+}
+main .box .wordbox .word{
+    width: 100%;
+    height: 1rem;
+    font-size: 0.24rem;
+    padding: 0.14rem 0;
+    box-sizing: border-box;
+    border-bottom: 0.02rem solid #e0e0e0;
+    position: relative;
+}
+main .box .wordbox .notice{
+    width: 100%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+}
+main .box .wordbox .word p{
+    float: left;
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    line-height: 0.72rem;
+    text-align: center;
+}
+main .box .wordbox .mess p{
+    width: 100%;
+    text-align: left;
+}
+main .box .wordbox .word input{
+    float: left;
+    width: 80%;
+    height: 100%;
+    border:none;
+    outline: none;
+    background: white;
+}
+main .box .wordbox .btn{
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    background: #00a0e9;
+    border: none;
+    border-radius: 0.12rem;
+    color: #fff;
+    font-size: 0.28rem;
+    letter-spacing: 0.02rem;
+    outline: none;
+    margin: 0.24rem 0;
+}

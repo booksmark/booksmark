@@ -1,0 +1,153 @@
+
+body,html{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top:0;
+    background: #fff;
+    z-index: 99;
+}
+header span{
+    display: block;
+    height: 100%;
+    width: 0.88rem;
+    line-height: 0.88rem;
+    text-align: left;
+    font-family: "宋体";
+    font-weight: bold;
+    color: #00a0e9;
+}
+header div{
+    height: 100%;
+    width: auto;
+    line-height: 0.88rem;
+    overflow: hidden;
+    font-size: 0.28rem;
+}
+header span a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 0;
+    box-sizing: border-box;
+}
+header span a img{
+    width: 100%;
+}
+
+.nav{
+    margin-top: 0.88rem;
+    width:100%;
+    height:0.88rem;
+    overflow: hidden;
+    background: #00a0e9;
+}
+.navbox{
+    height:100%;
+    line-height: 0.88rem;
+}
+.navbox > a{
+    float:left;
+    padding:0 0.4rem;
+    font-size: 0.32rem;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+article{
+    width: 100%;
+    height: auto;
+    padding: 0.24rem 0.2rem;
+    box-sizing: border-box;
+    background: white;
+}
+article h3{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+    border-left: 0.04rem solid #00a2d4;
+    padding-left: 0.28rem;
+    box-sizing: border-box;
+}
+.new li{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 0.02rem solid #e0e0e0;
+}
+.new li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.new li h4{
+    width: 70%;
+    height: 100%;
+    color: #333;
+    font-size: 0.28rem;
+    font-style: normal;
+    padding-left: 0.24rem;
+    line-height: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.new li div{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.new li div img{
+    width: 80%;
+}
+
+.banner{
+    width: 100%;
+    height: 4rem;
+    overflow: hidden;
+}
+
+
+#wrapper{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top:7.76rem;
+    bottom: 1rem;
+    overflow: hidden;
+    background: #f8f8f8;
+}
+.load{
+    width: 100%;
+    height: 0.6rem;
+    overflow: hidden;
+    line-height: 0.6rem;
+    color: #3b4249;
+    font-size: 0.24rem;
+    text-align: center;
+    display: none;
+}
+
+.p{
+    width: 100%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    text-align: center;
+    font-size: 0.28rem;
+    color: #999999;
+    background: #f8f8f8;
+    display: none;
+}

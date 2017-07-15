@@ -1,0 +1,37 @@
+#wrapper{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top:44px;
+    bottom: 50px;
+    overflow: hidden;
+    padding: 12px;
+    box-sizing: border-box;
+}
+#wrapper section{
+    width: 100%;
+    height: auto;
+    padding: 12px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #fff;
+}
+#wrapper section a{
+    display: block;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #679ECD;
+    position: relative;
+}
+#wrapper section a h3{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+    font-size: 24px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    top:50%;
+    margin-top: -15px;
+}

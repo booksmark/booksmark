@@ -1,0 +1,80 @@
+body{
+    width: 100%;
+    height: 100%;
+    background: #f8f8f8;
+}
+
+main{
+    width: 100%;
+    padding: 0.24rem;
+    box-sizing: border-box;
+    background: #f8f8f8;
+    position: absolute;
+    top:0.88rem;
+    bottom: 1rem;
+    overflow: hidden;
+}
+main .ul{
+    width: 100%;
+    height: auto;
+    background: white;
+    border-radius: 0.12rem;
+}
+main .ul li{
+    width: 100%;
+    height: 2rem;
+    border-bottom: 0.02rem solid #e0e0e0;
+}
+main .ul li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+main .ul li section{
+    width: 70%;
+    height: 100%;
+}
+main .ul li section h4{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    color: #333;
+    font-size: 0.28rem;
+    font-style: normal;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+main .ul li section p{
+    height: 1rem;
+    font-size: 0.24rem;
+    width: 100%;
+    padding:0 0.24rem;
+    box-sizing: border-box;
+    color: #333;
+    overflow:hidden;
+    display:-webkit-box;
+    text-overflow: ellipsis;
+    -webkit-line-clamp:2;
+    -webkit-box-orient:vertical;
+
+}
+
+main .ul li div.imgbox{
+    width: 30%;
+    height: 100%;
+    padding:0.2rem;
+    box-sizing: border-box;
+
+}
+main .ul li div.imgbox div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+main .ul li div.imgbox img{
+    width: 100%;
+}

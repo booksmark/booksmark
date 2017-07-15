@@ -1,0 +1,189 @@
+#wrapper{
+    height: auto;
+    width: 100%;
+    position: absolute;
+    top:0.88rem;
+    bottom: 1rem;
+    overflow: hidden;
+    background: #f8f8f8;
+}
+.box{
+    width: 100%;
+    height: auto;
+    padding: 0.12rem;
+    box-sizing: border-box;
+    background: #f8f8f8;
+}
+.one{
+    background: white;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.12rem;
+    padding: 0.2rem;
+    box-sizing: border-box;
+}
+.one h4{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    font-size: 0.36rem;
+}
+.one h5{
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.24rem;
+    color: #666;
+    font-style: normal;
+}
+.one p{
+    font-size: 0.24rem;
+    line-height: 0.3rem;
+    font-family: "微软雅黑";
+    color: #333;
+}
+.one p img{
+    width: 100%;
+}
+.one p:nth-of-type(1){
+    font-size: 0.28rem;
+    padding: 0.2rem 0;
+}
+.one p:nth-of-type(2){
+    font-size: 0.24rem;
+    padding: 0.2rem 0;
+}
+.one .img{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 0.36rem 0;
+}
+.one .img img{
+    width: 80%;
+}
+article{
+    width: 100%;
+    height: auto;
+    padding: 0.24rem 0.2rem;
+    box-sizing: border-box;
+    background: white;
+}
+article h3{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.28rem;
+    border-left: 0.04rem solid #00a2d4;
+    padding-left: 0.24rem;
+    box-sizing: border-box;
+}
+.new p{
+    width: 100%;
+    height: 0.6rem;
+    font-size: 0.24rem;
+    line-height: 0.24rem;
+    color: #999999;
+    text-align: center;
+}
+.new li{
+    width: 100%;
+    height: 1rem;
+    border-bottom: 0.02rem solid #e0e0e0;
+}
+.new li a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.new li h4{
+    width: 70%;
+    height: 100%;
+    color: #333;
+    font-size: 0.28rem;
+    font-style: normal;
+    padding-left: 0.24rem;
+    line-height: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.new li div{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.new li div img{
+    width: 80%;
+}
+
+
+.messbox .mess{
+    width: 100%;
+    height: auto;
+}
+.messbox .mess li{
+    width: 100%;
+    height: 1rem;
+    padding: 0.1rem 0;
+    border-bottom:0.02rem solid #ccc;
+}
+.messbox .mess li p{
+    height: 0.6rem;
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+}
+.messbox .mess li div{
+    height: 0.4rem;
+    font-size: 0.24rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.messbox .mess li div span{
+    color: #666;
+}
+
+.message{
+    height: 1rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: white;
+}
+.message a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 0;
+    text-align: center;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+}
+.message a img{
+    height: 100%;
+}
+.message div.kuang {
+    width: 100%;
+    height: 4rem;
+}
+.message div.kuang textarea{
+    width: 100%;
+    height: 2rem;
+}
+.message div.kuang input{
+    width: 100%;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    text-align: center;
+    border: none;
+    background: #00a0e9;
+    color: #fff;
+}

@@ -1,0 +1,154 @@
+body{
+    background: #F8F8F8;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+header.title{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    left: 0;
+    top:0;
+    background: #00a0e9;
+    z-index: 99;
+}
+header.title span{
+    display: block;
+    height: 100%;
+    width: 0.88rem;
+    font-size: 0.32rem;
+    line-height: 0.88rem;
+    text-align: left;
+    font-family: "宋体";
+    font-weight: bold;
+    color: white;
+}
+header.title div{
+    height: 100%;
+    width: auto;
+    line-height: 0.88rem;
+    overflow: hidden;
+    color: #fff;
+    font-size: 0.28rem;
+}
+
+
+.top{
+    width: 100%;
+    height: 5rem;
+    background: url("../img/loginback.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+
+main{
+    width: 100%;
+    height: 100%;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+
+main form{
+    width: 100%;
+    height:auto;
+    position: relative;
+    padding: 0.24rem 0;
+}
+main form .mess{
+    width: 100%;
+    height: 0.6rem;
+    color: #b94a48;
+    font-size: 0.24rem;
+    line-height: 0.6rem;
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+main form .box{
+    width: 100%;
+    height: 1.2rem;
+    padding: 0.2rem 0;
+    box-sizing: border-box;
+    position: relative;
+}
+main form .box input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.12rem;
+    color: #333333;
+    padding-left: 1rem;
+    outline: none;
+    border:0.02rem solid white;
+    box-sizing: border-box;
+}
+main form .box img{
+    height: 0.8rem;
+    position: absolute;
+    top: 0.2rem;
+    left: 0.16rem;
+}
+main form .check input{
+    display: block;
+    width: 50%;
+    height: 0.8rem;
+    border-radius: 0.12rem;
+    color: #333333;
+    padding-left: 0.3rem;
+    outline: none;
+    border:0.02rem solid white;
+    box-sizing: border-box;
+    position: absolute;
+    top:0.2rem;
+    right: 0;
+}
+main form .check div{
+    font-size: 0.24rem;
+    width: auto;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    color: white;
+    padding: 0 0.2rem;
+    box-sizing: border-box;
+    background: #00a0e9;
+    position: absolute;
+    top:0.2rem;
+    left: 0;
+    border-radius: 0.12rem;
+}
+main form .login{
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+}
+main form .login button{
+    width: 100%;
+    height: 100%;
+    border-radius: 0.12rem;
+    outline: none;
+    background: #00a0e9;
+    border: none;
+    line-height: 0.8rem;
+    color: white;
+}
+main form .type{
+    margin-top: 0.24rem;
+    width: 100%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    display: flex;
+    justify-content: space-between;
+}
+main form .type a{
+    height: 100%;
+    width: auto;
+    padding:0 0.3rem;
+    box-sizing: border-box;
+    color: gray;
+}

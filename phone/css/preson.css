@@ -1,0 +1,121 @@
+body{
+    background: #f8f8f8;
+}
+header{
+    width: 100%;
+    height: 0.88rem;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    background: #00a0e9;
+}
+header span{
+    display: block;
+    height: 100%;
+    width: 0.88rem;
+    font-size: 0.36rem;
+    line-height: 0.88rem;
+    text-align: left;
+    font-family: "宋体";
+    font-weight: bold;
+    color: #fff;
+}
+header>div{
+    height: 100%;
+    width: auto;
+    line-height: 0.88rem;
+    overflow: hidden;
+    color: #fff;
+    font-size: 0.28rem;
+}
+header span a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 0.16rem;
+    box-sizing: border-box;
+}
+header span a img{
+    width: 100%;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+    margin-top: 0.24rem;
+}
+main .box{
+    width: 100%;
+    height: auto;
+    background: white;
+    padding: 0.24rem;
+    box-sizing: border-box;
+    border-radius: 0.12rem;
+    display: flex;
+    justify-content: space-between;
+}
+main .box .list{
+    width: 50%;
+    height: 2rem;
+}
+
+main .box .list:nth-of-type(1) div{
+    font-size: 0.24rem;
+    width: 100%;
+    height: 0.5rem;
+    line-height: 0.5rem;
+}
+main .box .list:nth-of-type(1) div span{
+    color: #333;
+}
+
+
+main .box .list:nth-of-type(2){
+    width: 30%;
+    position: relative;
+}
+main .box .list .imgbox{
+    width: 1.8rem;
+    height: 1.8rem;
+    background: #e0e0e0;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+main .box .list .imgbox img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    border-radius: 50%;
+}
+main .box .list .imgbox a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 1.8rem;
+    text-align: center;
+    color: #00a0e9;
+}
+
+main .btn{
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    background: #00a0e9;
+    border: none;
+    border-radius: 0.12rem;
+    color: #fff;
+    font-size: 0.28rem;
+    letter-spacing: 0.02rem;
+    outline: none;
+}
