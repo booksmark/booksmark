@@ -19,7 +19,7 @@ $row=$result->fetch_assoc();
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Set</title>
+    <title>Bookmark</title>
 </head>
 <script src="js/jquery.js"></script>
 <script src="js/jquery.validate.min.js"></script>
