@@ -41,11 +41,7 @@ $row=$result->fetch_assoc();
             </div>
             <div class="list">
                 <div class="imgbox">
-                    <?php if(isset($_SESSION['u'])){
-                        echo "<img src=js/{$row['img']}>";
-                    }else{
-                        echo "<a href='login.php'>未登录</a>";
-                    }?>
+                    <img src=js/<?php echo $row['img'] ?>>
                 </div>
 
             </div>

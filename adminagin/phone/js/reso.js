@@ -50,7 +50,7 @@ window.onload=function () {
                 data:{keyword:keyword,nub:nub},
                 dataType:'json',
                 success:function (data) {
-                    $('.ps').remove()
+                    $('.ps').remove();
                     nub+=1;
                     if(data.length){
                     //     for(var i=0;i<data.length-1;i++){
@@ -82,7 +82,6 @@ window.onload=function () {
         }
 //            如果这个等于这个的时候 就说明往上滑到没内容了 该加载啦
         if(myScroll.y==myScroll.maxScrollY){
-
             $.ajax({
                 url:"jiazai.php",
                 data:{num:num},
@@ -100,7 +99,7 @@ window.onload=function () {
                         })
 //                        ajax获取到东西 列表盒子的高会发生变化 但是滚动条获取的高度发送AJAX之前的高  所以他的高度撑不开
 //                        所以得在AJAX成功之后 重新实例化myScroll 以便滚动条获取高
-                        myScroll = new IScroll('#wrapper', {});
+                        myScroll = new IScroll('#wrapper', {click:true});
                     }else {
                         let p=$('.p');
                         p.html(`没有更多内容了`).appendTo($('.new'));

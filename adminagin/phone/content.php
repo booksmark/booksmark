@@ -76,7 +76,10 @@ include_once "header.php";
     "javascript:;" class="pinlun" id="<?php echo $row['id']?>" value="<?php echo $_SESSION['u']?>" title="<?php echo $row['title']?>"
     <?php }else{?>
     "login.php"
-    <?php }?>
+    <?php }
+    $url='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+    $_SESSION['url']=$url;
+    ?>
 >
         <img src="img/liuyan%20line.png" alt="">
     </a>
@@ -98,10 +101,10 @@ include_once "header.php";
         let id=$(this).attr('id');
         let user=$(this).attr('value');
         let title=$(this).attr('title');
-        $('.messbox .kuang').append($(`
-                <textarea style="width: 100%;height: 100px;resize: none;box-sizing: border-box;border:1px solid #ccc;"></textarea>
+        $('.messbox .kuang').html(`
+                <textarea style="width: 100%;height: 100px;outline:none;resize: none;padding:0.12rem;box-sizing: border-box;border:1px solid #ccc;"></textarea>
                 <button type="button" value="确认提交" style="width: 100%;height: 44px;line-height: 44px;text-align: center;border: none;background: #00a0e9;color: #fff;outline: none">确认提交</button>
-        `))
+        `)
         myScroll = new IScroll('#wrapper', {
             scrollbars: true,//是否显示为默认的滚动条
             mouseWheel: true,
@@ -109,6 +112,11 @@ include_once "header.php";
             shrinkScrollbars: 'scale',
             fadeScrollbars: true,
         });
+        $('.messbox .kuang textarea').focus(function () {
+            $(this).css("border","0.02rem solid #00a0e9")
+        }).blur(function () {
+            $(this).css("border","0.02rem solid #ccc")
+        })
         $('.messbox .kuang button').on("touchend",function () {
             let con=$('.messbox .kuang textarea').val();
             $.ajax({

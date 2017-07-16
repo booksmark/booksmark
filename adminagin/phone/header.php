@@ -6,6 +6,8 @@
  * Time: 22:41
  */
 session_start();
+$headurl='http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+$_SESSION['headurl']=$headurl;
 ?>
 <!doctype html>
 <html lang="en">

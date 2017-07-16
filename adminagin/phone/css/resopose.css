@@ -109,6 +109,7 @@ article h3{
     display: flex;
     align-items: center;
     text-align: center;
+    overflow: hidden;
 }
 .new li div img{
     width: 80%;
@@ -150,4 +151,6 @@ article h3{
     color: #999999;
     background: #f8f8f8;
     display: none;
+
+    margin-top: -0.3rem;
 }

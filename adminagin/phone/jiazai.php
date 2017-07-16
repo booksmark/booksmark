@@ -6,10 +6,8 @@
  * Time: 18:25
  */
 include_once "public.php";
-$num=$_REQUEST['num']+7;
-$nums=$num+5;
-$keyword=$_REQUEST['keyword'];
-$sql="select * from content WHERE joins LIKE '%h%' limit $num,$nums";
+$num=$_REQUEST['num'];
+$sql="select * from content WHERE joins LIKE '%网%' limit $num,3";
 $result=$db->query($sql);
 $arr=array();
 while ($row=$result->fetch_assoc()){

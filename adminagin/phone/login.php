@@ -5,6 +5,8 @@
  * Date: 2017/6/15
  * Time: 20:46
  */
+session_start();
+$url=$_SESSION['url'];
 ?>
 <!doctype html>
 <html lang="en">
@@ -20,8 +22,12 @@
 <link rel="stylesheet" href="css/common.css">
 <link rel="stylesheet" href="css/login.css">
 <body>
+<input type="hidden" id="url" value="<?php echo $url?>">
+<input type="hidden" id="headurl" value="<?php echo $_SESSION['headurl']?>">
     <section class="top"></section>
-    <section class="title">登录</section>
+    <section class="title">登录
+        <a href="javascript:;">&lt;</a>
+    </section>
     <main>
 
 
@@ -49,6 +55,10 @@
 </body>
 </html>
 <script>
+
+    $(".title a").on("touchend",function () {
+       window.history.back();
+    })
     var input=$('input');
     input.focus(function () {
         $(this).css("border","1px solid #00a0e9")
@@ -58,6 +68,8 @@
     });
 
     $('.login').on('touchend',function () {
+        var url=$("#url").val();
+        var headurl=$("#headurl").val();
         var p=$('.mess');
         var user=$('.use').val();
         var pass=$('.pass').val();
@@ -66,7 +78,13 @@
             data:{user:user,pass:pass},
             success:function (data) {
                 if(data=="ok"){
-                    location.href="resopose.php";
+                    if(url.indexOf("content")>-1){
+                        location.href=url;
+                    }else if(headurl.indexOf("list")>-1){
+                        location.href=headurl;
+                    }else {
+                        location.href="resopose.php";
+                    }
                 }else {
                     p.html(data)
                 }
